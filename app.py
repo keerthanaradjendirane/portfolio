@@ -5,7 +5,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # --- Page Config ---
-st.set_page_config(page_title="AI Portfolio", layout="wide")
+st.set_page_config(page_title="Keerthana Portfolio", layout="wide")
 
 # --- Custom CSS Styling ---
 st.markdown("""
@@ -36,7 +36,7 @@ st.markdown("""
 
     /* Headings colors changed to teal */
     .stMarkdown h2 {
-        color: #008080; /* teal */
+        color: #00e2e2; /* teal */
         font-weight: 700;
     }
 
@@ -67,8 +67,9 @@ st.markdown("""
     .nav-menu a {
         margin: 0 30px;
         text-decoration: none;
-        color: #008080;
-        transition: color 0.2s ease;
+        color: #00e2e2;
+        transition: color 0.5s ease, font-size 0.3s ease;
+        font-size: 20px;
     }
 
     .nav-menu a:hover {
@@ -129,21 +130,21 @@ project_data = [
         
         "description": "A virtual classroom with all the basic features and with real time summarization and sending the summarized content to the host using flask, gemini api and react",
         "achievement":"1st prize at Sri Manakula Vinayagar Engineering College Technical Symposium and Semifinalist for a national level hackathon",
-        "link": "https://example.com/virtual-classroom"
+        "link": "https://meet-minds-ai-fea6.vercel.app/"
     },
     {
         "title": "Diet Plan Generator based on Medical History",
        
         "description": "A personalized AI-powered diet planner that takes the patients medical data to consideration and generates diet plan with customization using machine learning, flask, html,streamlit.",
         "achievement":"Shortlisted for Round 2 in Prestigious Product War Room competition organized by IIM! 🏆",
-        "link": "https://example.com/diet-generator"
+        "link": "https://dazzling-cranachan-8e85f3.netlify.app/"
     },
     {
         "title": "Virtual Data Analyst",
        
         "description": "Python-based virtual data analyst that replicates all data analysis tasks, including data visualization, model prediction, report generation, and dashboard creation. Integrated with the Gemini API, it features a chatbot for seamless interaction and automation of data-driven insights",
         "achievement":"Shortlisted among 25 teams for informatica global hackathon",
-        "link": "https://example.com/virtual-analyst"
+        "link": "https://chandiyafinal-kf6w6wgaqrdlvcrzuvzp6j.streamlit.app/"
     },
 ]
 
@@ -298,10 +299,19 @@ Get in touch with me through email or connect on my social media platforms:
 </a>
 
 <a href="https://github.com/keerthanaradjendirane" target="_blank" style="text-decoration:none;">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#24292e" viewBox="0 0 24 24" style="vertical-align: middle;">
-        <path d="M12 .3C5.4.3 0 5.7 0 12c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6V21c-3.3.7-4-1.6-4-1.6-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.3 1-.3 2.1-.4 3.2-.4 1.1 0 2.2.1 3.2.4 2.3-1.6 3.3-1.3 3.3-1.3.6 1.7.2 2.9.1 3.2.8.9 1.2 2 1.2 3.3 0 4.6-2.8 5.6-5.5 5.9.4.3.8 1 .8 2v3c0 .3.2.7.8.6 4.8-1.6 8.2-6.1 8.2-11.4C24 5.7 18.6.3 12 .3z"/>
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#ffffff" viewBox="0 0 24 24" style="vertical-align: middle;">
+        <path d="M12 .3C5.4.3 0 5.7 0 12c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6V21c-3.3.7-4-1.6-4-1.6-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7
+                 1.2.1 1.8 1.2 1.8 1.2 1.1 1.9 2.9 1.3 3.6 1 
+                 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 
+                 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.5.1-3.2 
+                 0 0 1-.3 3.3 1.3 1-.3 2.1-.4 3.2-.4 
+                 1.1 0 2.2.1 3.2.4 2.3-1.6 3.3-1.3 
+                 3.3-1.3.6 1.7.2 2.9.1 3.2.8.9 
+                 1.2 2 1.2 3.3 0 4.6-2.8 5.6-5.5 5.9
+                 .4.3.8 1 .8 2v3c0 .3.2.7.8.6 
+                 4.8-1.6 8.2-6.1 8.2-11.4C24 5.7 18.6.3 12 .3z"/>
     </svg>
-    <span style="color:#24292e; font-weight:bold; vertical-align: middle;">GitHub</span>
+    <span style="color:#ffffff; font-weight:bold; vertical-align: middle; margin-left: 10px;">GitHub</span>
 </a>
 </p>
 """, unsafe_allow_html=True)
@@ -317,9 +327,26 @@ Beyond the code, I thrive in collaborative spaces—having led award-winning pro
 
 As President of SMVEC Toastmasters and Unstop Student Director, I bring strong communication and leadership skills. I was a Top 100 finalist in ICT Academy Youth Talk 2024, chosen from over 5000+ participants.  “I build AI models and deliver talks — proving that both humans and machines can learn to communicate better! 🤓🤖🎤”"""
 )
-
 text_so_far = ""
 for char in about_me_text:
     text_so_far += char
     about_me_placeholder.markdown(text_so_far)
     time.sleep(0.00005)
+
+# Load your resume file
+with open("resume.pdf", "rb") as file:
+    resume_data = file.read()
+
+# Add a professional download button with accent color
+st.download_button(
+    label="📄 Download My Resume",
+    data=resume_data,
+    file_name="Keerthana_Radjendirane_Resume.pdf",
+    mime="application/pdf",
+    key="download-resume",
+    help="Click to download my resume",
+    # Optional styling (works with themes, you can customize)
+    # You can wrap in st.markdown for more CSS if needed
+)
+
+
